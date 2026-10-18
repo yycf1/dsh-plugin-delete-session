@@ -54,9 +54,7 @@
           "version": "1.0.8",
           "publishTimestamp": 1792315872,
           "source": {
-            "type": "git",
-            "url": "https://github.com/yycf1/dsh-plugin-delete-session",
-            "commit": "52a4652d2c8d04b82874c09f467ca051204c4c18"
+            "type": "npm"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0"

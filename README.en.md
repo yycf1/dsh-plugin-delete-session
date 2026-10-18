@@ -21,7 +21,7 @@ A community plugin for DeepSeek Harness (DSH) that adds a real **Delete conversa
 
 ## Install
 
-### npm (recommended, once released)
+### npm (recommended)
 
 ```sh
 dsh plugin --profile web add dsh-plugin-delete-session
