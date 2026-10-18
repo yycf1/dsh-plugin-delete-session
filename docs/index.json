@@ -56,7 +56,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/yycf1/dsh-plugin-delete-session",
-            "commit": "e76bef742c62f19105ff36fadeb701105c9f92d9"
+            "commit": "52a4652d2c8d04b82874c09f467ca051204c4c18"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0"
