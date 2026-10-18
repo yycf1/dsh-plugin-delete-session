@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Trash",
+    "description": "Adds a delete action to every session menu. Deleting asks for confirmation, removes the session from the list, and keeps a copy for seven days so it can be restored."
+  }
+}

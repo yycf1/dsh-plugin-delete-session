@@ -1,0 +1,63 @@
+{
+  "name": "dsh-plugin-delete-session",
+  "version": "1.0.8",
+  "description": "Delete DeepSeek Harness sessions with confirmation, undo, and a 7-day recycle bin.",
+  "license": "MIT",
+  "author": "yycf1",
+  "homepage": "https://github.com/yycf1/dsh-plugin-delete-session#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yycf1/dsh-plugin-delete-session.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yycf1/dsh-plugin-delete-session/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "delete",
+    "recycle-bin",
+    "undo"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "title": {
+    "en": "yycf1 DSH plugins",
+    "zh": "yycf1 DSH 插件"
+  },
+  "description": {
+    "en": "Community plugins for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 社区插件。"
+  },
+  "metadata": {
+    "categories": {
+      "session": {
+        "title": {
+          "en": "Sessions",
+          "zh": "会话与消息"
+        }
+      }
+    },
+    "labels": {
+      "trash": {
+        "title": {
+          "en": "Recycle bin",
+          "zh": "回收站"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-delete-session",
+      "title": {
+        "en": "Session Trash",
+        "zh": "删除对话与回收站"
+      },
+      "description": {
+        "en": "Delete DSH sessions with confirmation, immediate removal, undo, and a 7-day recycle bin.",
+        "zh": "给 DSH 会话菜单增加删除、撤销与 7 天回收站；删除后立即从侧栏移除。"
+      },
+      "icon": "icons/session-trash.svg",
+      "author": "yycf1",
+      "homepage": "https://github.com/yycf1/dsh-plugin-delete-session#readme",
+      "repository": {
+        "url": "https://github.com/yycf1/dsh-plugin-delete-session"
+      },
+      "metadata": {
+        "category": "session",
+        "labels": [
+          "trash"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.8",
+          "publishTimestamp": 1792315872,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yycf1/dsh-plugin-delete-session",
+            "commit": "e76bef742c62f19105ff36fadeb701105c9f92d9"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
