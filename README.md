@@ -45,7 +45,7 @@ dsh plugin --profile web add github:yycf1/dsh-plugin-delete-session
 https://yycf1.github.io/dsh-plugin-delete-session/index.json
 ```
 
-打开 **设置 → 插件 → 实验性插件 → 自定义插件市场**，添加上面的索引地址，即可在“发现”中查看并安装。也可以在 DSH Plugin Hub（dsh-plugin.org）搜索本插件。
+打开 **设置 → 插件 → 实验性插件 → 自定义插件市场**，添加上面的索引地址，即可在“发现”中查看并安装。已提交 DSH Plugin Hub（dsh-plugin.org），收录后可在其站点搜索。
 
 ## 使用
 
